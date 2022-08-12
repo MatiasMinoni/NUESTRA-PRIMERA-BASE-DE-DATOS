@@ -4,7 +4,7 @@ const { Server: HttpServer } = require('http')
 const { Server: Socket } = require('socket.io')
 
 const ContenedorDB = require('../contenedores/ContenedorDB.js')
-// const ContenedorArchivo = require('../contenedores/ContenedorArchivo.js')
+const ContenedorArchivo = require('../contenedores/ContenedorArchivo.js')
 const {configMySQL, configSQLite} = require('./config.js')
 
 
